@@ -72,4 +72,8 @@ public class Main {
         matr[a].insertFirst(matr[a].length()-1,b);
 
     }
+
+    public void deleteMat(LinkList[] matr, int a){
+        matr[a].deleteFirst();
+    }
 }
