@@ -53,15 +53,7 @@ public class Main {
 
                     if(b > 0) current1 = current1.next;
 
-
-
-
-                    System.out.println(sum);
                     sum += current.dData * current1.dData;
-                    System.out.println(sum);
-
-
-
 
                     if (j + 1 == k) {
                         ans[a].insertFirst(b, sum);
