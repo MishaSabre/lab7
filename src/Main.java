@@ -67,4 +67,9 @@ public class Main {
 
 
     }
+
+    public void insertMat(LinkList[] matr, int a, int b){
+        matr[a].insertFirst(matr[a].length()-1,b);
+
+    }
 }
